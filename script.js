@@ -115,7 +115,7 @@ function waitAndResponce(inputText) {
             break;
         default:
             setTimeout(() => {
-                sendTextMessage("Hey I couldn't catch you...😢<br>Send 'help' to know how to chat with me.");
+                sendTextMessage("Hey, I couldn't catch you...😢<br>Send 'help' to know how to chat with me.");
             }, 2000);
             break;
     }
